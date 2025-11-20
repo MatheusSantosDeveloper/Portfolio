@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Santos - Desenvolvedor Web</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">Matheus Santos</h1>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Início</a></li>
+                        <li><a href="#about" class="nav-link">Sobre</a></li>
+                        <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                        <li><a href="#projects" class="nav-link">Projetos</a></li>
+                        <li><a href="#contact" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <!-- Imagem à esquerda -->
+                    <div class="hero-image">
+                        <div class="profile-image">
+                            <img src="/public/foto.png" alt="Matheus Santos" class="profile-photo">
+                        </div>
+                    </div>
+                    
+                    <!-- Conteúdo textual à direita -->
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Olá, eu sou 
+                            <span class="highlight">Matheus Santos</span>
+                        </h1>
+                        <h2 class="hero-subtitle">Analista e Desenvolvedor de Sistemas</h2>
+                        <p class="hero-description">
+                            Apaixonado por tecnologia, desenvolvimento web e criação de soluções completas.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                            <a href="#contact" class="btn btn-secondary">Contato</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Sou formado em <strong>Análise e Desenvolvimento de Sistemas</strong> e tenho paixão por criar
+                            soluções tecnológicas. 
+                        </p>
+                        <p>
+                            Minha abordagem combina conhecimento técnico sólido com criatividade e atenção aos detalhes,
+                            resultando em produtos de alta qualidade que atendem às necessidades dos usuários e objetivos
+                            do negócio.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h3>10+</h3>
+                                <p>Projetos Concluídos</p>
+                            </div>
+                            <div class="stat">
+                                <h3>2+</h3>
+                                <p>Anos de Experiência</p>
+                            </div>
+                            <div class="stat">
+                                <h3>5+</h3>
+                                <p>Tecnologias Dominadas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">HTML5</span>
+                            <span class="skill-item">CSS3</span>
+                            <span class="skill-item">JavaScript</span>
+                            <span class="skill-item">React</span>
+                            <span class="skill-item">TypeScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">PHP</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Banco de Dados</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">MySQL</span>
+
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Ferramentas</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">Git</span>
+                            <span class="skill-item">VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Meus Trabalhos</h2>
+                <div class="projects-grid">
+                    <!-- Projeto 1 -->
+                    <div class="project-card">
+                        <div class="project-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slides">
+                                    <div class="carousel-slide active">
+                                        <img src="./public/foto01-projeto-01.png" alt="E-commerce Platform - Tela 1">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="./public/foto02-projeto-01.png" alt="E-commerce Platform - Tela 2">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="./public/foto03-projeto-01.png" alt="E-commerce Platform - Tela 3">
+                                    </div>
+                                </div>
+                                <button class="carousel-btn carousel-prev" aria-label="Imagem anterior">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M15 18l-6-6 6-6"/>
+                                    </svg>
+                                </button>
+                                <button class="carousel-btn carousel-next" aria-label="Próxima imagem">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 18l6-6-6-6"/>
+                                    </svg>
+                                </button>
+                                <div class="carousel-dots">
+                                    <span class="dot active" data-slide="0"></span>
+                                    <span class="dot" data-slide="1"></span>
+                                    <span class="dot" data-slide="2"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Sistema de Avaliação Educacional</h3>
+                            <p>É uma plataforma web desenvolvida para automatizar e otimizar todas as etapas do processo avaliativo educacional. Ele permite que a Secretaria de Educação, as escolas e os professores tenham mais agilidade, precisão e organização no acompanhamento do desempenho dos alunos.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>PHP</span>
+                                <span>SQL/MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Solicite um Orçamento</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Entre em Contato</h3>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <strong>Email:</strong>
+                                <a href="mailto:tedymoraes.mm@email.com">tedymoraes.mm@gmail.com</a>
+                            </div>
+                            <div class="contact-method">
+                                <strong>Telefone:</strong>
+                                <a href="tel:+5511999999999">(88) 98852-3055</a>
+                            </div>
+                            <div class="contact-method">
+                                <strong>LinkedIn:</strong>
+                                <a href="https://www.linkedin.com/in/matheus-santos-developerweb/" target="_blank">linkedin.com/in/matheus-santos-developerweb</a>
+                            </div>
+                            <div class="contact-method">
+                                <strong>GitHub:</strong>
+                                <a href="https://github.com/MatheusSantosDeveloper" target="_blank">https://github.com/MatheusSantosDeveloper</a>
+                            </div>
+                        </div>
+                    </div> <!--
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form> -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Matheus Santos. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/matheus-santos-developerweb/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/MatheusSantosDeveloper" target="_blank">GitHub</a>
+                    <a href="mailto:tedymoraes.mm@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
